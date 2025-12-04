@@ -30,8 +30,10 @@ Proof of Execution:
 <img width="1919" height="909" alt="Screenshot 2025-12-04 221446" src="https://github.com/user-attachments/assets/606f95f7-d8a9-4850-a7eb-16446d876df1" />
 
 3. CI/CD Pipeline (GitHub Actions)
-The pipeline authenticates with Google Drive using encrypted secrets (GDRIVE_CREDENTIALS_DATA) to pull data before testing.
+Automated workflows are set up to run tests on every push. The pipeline authenticates with Google Drive using encrypted secrets (GDRIVE_CREDENTIALS_DATA) to pull data before testing.
 
 Proof of Execution:
 <img width="1114" height="250" alt="Screenshot 2025-12-04 214311" src="https://github.com/user-attachments/assets/bee5d1ef-056b-483a-a6fd-d978ff2714d6" />
 <img width="1897" height="913" alt="Screenshot 2025-12-04 214443" src="https://github.com/user-attachments/assets/a317da48-a12a-44bf-9f40-76bd2ba02011" />
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/6d7b068e-6a42-4b58-b7fc-27d817a2c6b8" />
+
