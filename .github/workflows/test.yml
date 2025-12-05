@@ -27,7 +27,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8'
+          python-version: '3.10'
 
       # Install dependencies
       - name: Install dependencies
@@ -55,5 +55,6 @@ jobs:
           uv run python main.py --mode test \
             --data_path data/test \
             --model_path models/cnn_resnet18_freeze_backbone_True_fold_4.pth
+
 
 
